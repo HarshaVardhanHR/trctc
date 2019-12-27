@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="6;url=login.html" />
+<style>
+.loader {
+  border-radius: 38%;
+  width: 220px;
+  height: 30px;
+  animation: spin 2s linear 1;
+  
+}
+.img{
+  
+border-radius:70%;
+}
+
+@keyframes shake {
+  0% { transform: translate(100px, 100px) rotate(0deg); }
+  20% { transform: translate(-300px, 0px) rotate(1deg); }
+  40% { transform: translate(100px, -100px) rotate(1deg); }
+  60% { transform: translate(-300px, -100px) rotate(0deg); }
+  70% { transform: translate(300px, -100px) rotate(-1deg); }
+  80% { transform: translate(-100px, -100px) rotate(1deg); }
+  100% { transform: translate(100px, -200px) rotate(-1deg); }
+}
+
+.loader1 {
+  border: 1px solid red;
+  border-radius: 20%;
+  border-top: 1px solid red ;
+  width: 40px;
+  height: 40px;
+background-color:skyblue;
+  animation: spin 5s linear 1;
+  
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(180deg); }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:50%
+  height:50%
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+p
+{background-color:blue}
+.li1
+{float:center;}
+
+body
+{background-image:url("u3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+.top{position:relative;animation:animatetop 2s}@keyframes animatetop{from{top:-300px;opacity:0} to {top:0;opacity:1}}
+.fading{animation:fading 6s 1}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.bottom{position:relative;animation:animatebottom 5s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.right{position:relative;animation:animateright 2s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+</style>
+</head>
+<body>
+<br>
+<br>
+<br>
+<center class="right"><img class="zoom" src="j.png" width="200" height="200"></center>
+<br>
+<br>
+<br>
+<div class="bottom"><center><div class="loader"><ul >
+ <font face="verdana" color="green"><li><div class="loader1"><center>T</center></div></li>
+  <li><div class="loader1"><center>R</center></div></li>
+  <li><div class="loader1"><center>C</center></div>
+  <li><div class="loader1"><center>T</center></div></li>
+<li>  <div class="loader1"><center>C</center></div></li>
+  </font>
+</ul></div></center></div>
+<br><br>
+<br>
+<br>
+<center>   <h2 class="top">
+      
+      <font face="Comic Sans MS" color="cyan" >WELCOMES YOU</font></h2></center>
+<font face="Comic Sans MS" color="orange" ><center><h3 class="left"><b>Speed-Efficiency-Service</b></h3></center></font>
+</body>
+</html>

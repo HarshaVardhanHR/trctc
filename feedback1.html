@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>feedback</title>
+	<style>
+		div{
+			border-style: dashed;
+			border-width: 5px;
+			border-radius: 15px;
+			font-family: cursive;
+			font-size: 18px;
+			padding: 10px;
+		}
+		td{
+			width: 50%;
+			padding: 10px;
+		}
+		.change{
+			width: 100%;
+			height: 100%;
+			color: black;
+			animation: myanimation 3s  infinite;
+			font-family: harrington;
+		}
+		@keyframes myanimation{
+			0%{background-color: yellow;}
+			50%{background-color: orange;}
+			100%{background-color: yellow;}
+		}
+		.sub{
+			background-color: red;
+			height: 40px;
+			width: 100px;
+			border-style: solid;
+			border-color: white;
+			border-radius: 10px;
+			border-width: 5px;
+		}
+		.sub:hover{
+			height: 50px;
+			width: 120px;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body class="change">
+	<img align="left" src="j.png" height="100" width="100">
+	<form name="feedback" action="feedsuccess.html" method="get">
+	<h1 align="center" style="font-family: harrington;color: brown;"><font size="38"><b>FEEDBACK</b></font></h1>
+<table width="100%">
+	<tr>
+		<td>
+<div style="background-color: yellow;">
+	<strong>What do you feel about this website?</strong><br>
+    <input type="radio" name="feel" value="awesome" />awesome<br>
+    <input type="radio" name="feel" value="good" />good<br>
+    <input type="radio" name="feel" value="ok" />OK<br>
+    <input type="radio" name="feel" value="bad" />bad<br>
+    <input type="radio" name="feel" value="worst" />worst
+</div>
+</td>
+<td>
+<div style="background-color: yellow;">
+	<strong>How are the services?</strong><br>
+	<input type="radio" name="services" value="awesome" />awesome<br>
+    <input type="radio" name="services" value="good" />good<br>
+    <input type="radio" name="services" value="ok" />OK<br>
+    <input type="radio" name="services" value="bad" />bad<br>
+    <input type="radio" name="services" value="worst" />worst
+</div>
+</td>
+</tr>
+<tr>
+	<td>
+		<div style="background-color: orange">
+		<strong>How is the delivery?</strong><br>
+	<input type="radio" name="delivery" value="awesome" />awesome<br>
+    <input type="radio" name="delivery" value="good" />good<br>
+    <input type="radio" name="delivery" value="ok" />OK<br>
+    <input type="radio" name="delivery" value="bad" />bad<br>
+    <input type="radio" name="delivery" value="worst" />worst
+</div>
+	</td>
+	<td>
+		<div style="background-color: orange">
+		<strong>What do you feel about the interface?</strong><br>
+		<input type="radio" name="interface" value="awesome" />awesome<br>
+    <input type="radio" name="interface" value="good" />good<br>
+    <input type="radio" name="interface" value="ok" />OK<br>
+    <input type="radio" name="interface" value="bad" />bad<br>
+    <input type="radio" name="interface" value="worst" />worst
+</div>
+	</td>
+</tr>
+<tr>
+	<td>
+		<div style="background-color: yellow">
+			<strong>Rate the website</strong><br>
+			<input type="radio" name="rating" value="5" />5<br>
+			<input type="radio" name="rating" value="4" />4<br>
+			<input type="radio" name="rating" value="3" />3<br>
+			<input type="radio" name="rating" value="2" />2<br>
+			<input type="radio" name="rating" value="1" />1<br>
+        </div>
+    </td>
+    <td>
+    	<div style="background-color: yellow">
+    		<strong>Your requests to develop our website and services are heartly welcome</strong><br>
+    		<textarea rows=6 cols=60 placeholder="Enter your comments here" /></textarea>
+    	</div>
+    </td>
+</tr>
+</table>
+<center>
+	<input type="submit" class="sub" name="feedsubmit" value="submit" />
+</center>
+</form>
+</body>
+</html>
