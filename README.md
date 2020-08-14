@@ -1,4 +1,4 @@
-<h1>Our first Web application along with a Database and session</h1>
+<h1>Our first Web application along with a Database and Sessions (July 2019 - October 2019)</h1>
 <h3>Built as an  academic project for the subject  "Database Design and Management" under the guidance of Dr.Swamynathan, Proffessor-College of Engineering Guindy.</h3>
 
 <h3>Technologies used:</h3>
