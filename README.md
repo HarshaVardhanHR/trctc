@@ -14,7 +14,7 @@
 
 <h3>Description</h3>
 <p> Indian?????? Must have used IRCTC 🚞🚞🚞 .We being train fans tried to replicate the working of the IRCTC train-ticket booing platform .Yes...we succeeded to in 
-replicating booking train ticket feature.Hmm....looks simple....huh.Oh...It's actually not.....The trains halt only at the source and destination but also in some inbetween places....
+replicating booking train ticket feature.Hmm....looks simple....huh.Oh...It's actually not.....The trains do not halt only at the source and destination but also in some inbetween places....
 So to book tickets from ther too it's kind of tough and it took us nearly a month and a half to come up with a design the meet this requirment.Not only that heard of <strong>Waiting List</strong>
 and we did that too....</p>
 
